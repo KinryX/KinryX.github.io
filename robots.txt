@@ -10,4 +10,4 @@ Allow: /css/
 Allow: /images/
 Allow: /js/
 Allow: /lib/
-Sitemap: <your-domain-name>/sitemap.xml
+Sitemap: <bear.tulip.org.au>/sitemap.xml
