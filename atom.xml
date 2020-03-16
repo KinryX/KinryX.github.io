@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>No meat, no life</title>
+  
+  <subtitle>Little head, big doubt</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://bear.tulip.org.au/"/>
+  <updated>2020-03-16T03:35:29.756Z</updated>
+  <id>http://bear.tulip.org.au/</id>
+  
+  <author>
+    <name>Kinry Xiong</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【工具篇】TikZ绘图</title>
+    <link href="http://bear.tulip.org.au/2020/03/16/%E5%B7%A5%E5%85%B7%E7%AF%87-tikz%E7%BB%98%E5%9B%BE/"/>
+    <id>http://bear.tulip.org.au/2020/03/16/%E5%B7%A5%E5%85%B7%E7%AF%87-tikz%E7%BB%98%E5%9B%BE/</id>
+    <published>2020-03-16T03:25:28.000Z</published>
+    <updated>2020-03-16T03:35:29.756Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在用latex写论文，又了解到一款实用的绘图包，接下来会边学边用。先开个篇，后续慢慢更新。</p><h3 id="1-关于-Tikz">1. 关于 Tikz</h3><p>TikZ是一个非常棒的用于TeX/LaTeX/ConTeXt的图形绘制包，可以直接使用Tex命令进行绘图。（<a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ" target="_blank" rel="noopener">TikZ的Wiki介绍</a>）</p><p>TikZ是基于PGF的，可以帮助我们用更易于理解的方式去创建复杂的图形。PGF （“portable graphics format”）作为basic layer，提供了一组用于生成图形的基本命令，而TikZ (“TikZ ist kein Zeichenprogramm”) 则是具有特殊语法的fronted layer，使PGF的使用更加容易。（<a href="https://particlephd.wordpress.com/2009/01/02/latex-figures-with-pgf-and-tikz/" target="_blank" rel="noopener">A TikZ mini course slide</a>）</p><h4 id="1-1-整理一些资源以供学习：">1.1  整理一些资源以供学习：</h4><ul><li>TikZ快速入门文档： <a href="http://cremeronline.com/LaTeX/minimaltikz.pdf" target="_blank" rel="noopener">http://cremeronline.com/LaTeX/minimaltikz.pdf</a></li><li>官方的示例资源： <a href="http://www.texample.net/tikz/" target="_blank" rel="noopener">http://www.texample.net/tikz/</a></li><li>其他可供学习的资源<ul><li><a href="http://www.texample.net/tikz/resources/" target="_blank" rel="noopener">A growing collection of links to various TikZ and PGF resources.</a></li><li><a href="https://github.com/FriendlyUser/LatexDiagrams" target="_blank" rel="noopener">Latex Diagrams that generated/taken from internet</a></li><li><a href="https://github.com/xiaohanyu/awesome-tikz" target="_blank" rel="noopener">A project contains a curated list of awesome TikZ documentations, libraries and resources</a></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近在用latex写论文，又了解到一款实用的绘图包，接下来会边学边用。先开个篇，后续慢慢更新。&lt;/p&gt;
+&lt;h3 id=&quot;1-关于-Tikz&quot;&gt;1. 关于 Tikz&lt;/h3&gt;
+&lt;p&gt;TikZ是一个非常棒的用于TeX/LaTeX/ConTeXt的图形绘制包，可以直接使用Tex命
+      
+    
+    </summary>
+    
+    
+      <category term="工具篇" scheme="http://bear.tulip.org.au/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+      <category term="Tools" scheme="http://bear.tulip.org.au/tags/Tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不负当下，不畏将来</title>
+    <link href="http://bear.tulip.org.au/2020/03/10/%E4%B8%8D%E8%B4%9F%E5%BD%93%E4%B8%8B%EF%BC%8C%E4%B8%8D%E7%95%8F%E5%B0%86%E6%9D%A5/"/>
+    <id>http://bear.tulip.org.au/2020/03/10/%E4%B8%8D%E8%B4%9F%E5%BD%93%E4%B8%8B%EF%BC%8C%E4%B8%8D%E7%95%8F%E5%B0%86%E6%9D%A5/</id>
+    <published>2020-03-10T03:02:15.000Z</published>
+    <updated>2020-03-16T03:23:42.521Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="a76a618535f55e027a2c671c3defa6bd38e39b7e5593ddfb537c43a8f65e00ae">6943b863185102527ebb7b3c5a11f9cc405fa21f3d4f75f5862571e4e206c1637d1a664f1b925f01f3122a6dd87e10dc700c630f83180235161ef0b81f6511b6df2cbec23f8bddb941df6ad4d658ad7051f89361f11084bcb91ec1637cce9afb4a0ee8fc8ec1361ac5ca4303d381130a639191437d41f8c24f013876949ccab3c66879974d6789bb0a5fd76a0d7fd9fd348b7df0d2908cc515ebf67506ef64f6fd5c139531cbd03a3e12d230d4adbf54bc3416ef570c97ece9a0ec9e4d655f06209c46f3becb687e4930559b869c1f331c1d4621d155461cded5afe83a24b19f4bf7b293ca30721190db786b2e94470f7f5cde22ee7eba437ab60d745d79b28f7693f3ed89cfdcad124e710dd28e0de37fb505674ea16195223794090e2ca9b6335c19e988458682b34878ab4bc8511c696dbb7b4884a709b25d59c0d2dbbf8f2a10cc8a6100fc406d08948a9dfc4ba54806605685f2025a30ecb28e78816aa99a9e22562bc1cbf91c769a1d8930c45232858f4691d5ecf38f603e57588e71d7c3ed56db422e62cb49e0da266f9e4b1fc97b42ae4843483f6105735ac7b459e57ba9d751c68ebe264c6411bc4a1a5555dc50abfe02e46aafcdcea278f0f56110178006d62ae01301e72eb239c5549b7e3e0ec522edd756bbfbfb7a8b8b40dc8587e91fbe1946e6eee1ab3ebcdc9d103e68ae1c34d13955da587882190f7d33d2c1b15b73c96e0a957152bb902e4f9289527e33727090cde33bba23aaf09f47b52b35478564b6b8bfc276da8b44f9ee9b521e40fb246d9dee06d0ef2df5250c5b2be60d92b7bcf0e826e413fc41453585c00b52e7cb10bd1ee71c80e81584d5e4aae7af94cb7616d7ec9b7922b4bda85b2835378bc739700348a2f59677cbda42ff63bf3b1cd94861f686b4887f0cf5857728cb6c8c9a491997d53901526af5edc4e254b3ac268185fed51ce4d98c3e6ccd1141acc3e2657a9289cb41288d107132c30da927f10f2064420497e882d6ac150dd7141e83745dbcc91dd9668014f6beadbf8e7bd580b387445107fe36bf1a1c215410e53311e0af5b7341d42a09899f74ad4f93c18505670e393970018bb70a0b6e566d9e22275616ec9fa95fbff9348bbf3e2ec04a93ce8cf43bc6a71e6bdc98d4f4e5620d69e728f4b5533ddff46f3f23b535c13296ae6afb941fb65c3e0362052eeb4437b634b1dbf83f5c83de8fd0110ce28b4d7ae7a53952a09a808423fee5f630691eeade23807ba53bf476f51fa7179bf631e11e399db8d56c5e1d1124c9ca0464460862408a1a2dc285046328b3a7460180f43817a9f9187c853e98adbdba5a52869472091061ba9dbdefd6889f3ab3cd718466b534f30e153007837ca35dfad3857f84ddfd2901e49a17831e6e69c5961cf87382e9e0932340c828f7e0f9f6d4fc0b5be27e40b58fcf64805ab750a0e9fca87d7e8838d3c719fa47c6b6bfdf133538b077a055bd4b22d2e8717a5367f362d4af5a578453ee9a6137b8d17dd5336d3ae6d840f3b35244320c5d6d30a7cd8434fca6d89209804ecacbb69b54c304c10e64a0c0e2274ce2bcfb4fb5af88efdedcd37678efc94dd8496dd3692d7411cd874e52eb7da6d7b0388a9e14e6b086c648bd2b8fc5cb4f14ef42a0a162dd8e665d7e988916d671991f1f3df672a5555b63e4eda10be98c62314161dfa986641c39227098b33055fd5ddff98e4b26f1fff21c33f11a0c2cd05f2fd037b9fd76ce2d32408f51f68befd4a451826aa37d6e40d097882ae6347eb6e9f024e3ddd8a839cc834292a0397a66d4eaa8f37346121a24e46f08ad1a0478a5cc7f9a0db8b71b7113903700f22f2a3a6b5c432f8924f60996e7b1a4058be64175bf43c3e0466716e6e17f2ffb5a43c8ae83c6517454075a42ac2b1cc9f92f323ce9743af7a5ef0d40f36ac8524e122c4747a41adeed6a15a8a09e18212a662471ae3a3456e8878a16aff134cd2d914b2c91c8001f1dd975413547e520d353db54a516cdb2616bc9aae3c1575329fb0f7b4d83794b813ec460619f982bc195bc436e017af557dda0ff08413565f81d1d436da1c95bd2befd65fddcb8b2dce0c15eed2f4d2b0719d234e0a31ee73bf25ffdd53039204dc80dd01284d868171b0f45e1c11925bc68f443ae68aaa7e54973ce5a9eb35f180e4bdb407055ce168d7599d71f00bca3ee3e320bc9404c89b09bc82802120d347e301e4da79414709044cdd7f65bdbfffeb4839975c570f2d9833a5a91f194dcf94ed067af791d6aff23d68d10002b941d1543c48385956636e959a617f241592eb9822c691639b2afe2e88bc6da22b34848362a7ae17edeb4cac40689adf9ea648dc00e3466585ed22a874551c941e14e2c2df3c017ea39d12c2014c1c8234246f53a5f72907c1bb9dd7dde7458891c43ef698ac96c695d97afaad440f41a76f4020aeeef885ec86fe9927d212c0d010dbac693b3fa702d2a89f64246b796a562f53038903dfdf1b01836f061217c9d2f74d810c9de81e75a162eff8b4ed428356f1912cfe65f23dd6019ccac628d1bb08d2b2dd44a46bb57c800c982fc5536d915fb9db5c1c50f1d8c782c8132ce95e77eb5e3b215c8ee263c793c73f5964d6de00db5f10ebcb7fb5c85af5bfc2477f82f2168a2c36b1a17bbcdcc6f11cab7865d328f174f1fb5f38f300b989b012761dc7e34c696f3e0812e166c6158906030d34b1808b412ed80fc83f12dd6dcd1f70238db940f6fab0a806d934f34ba3e804819e9f8a4e16f2089cf68996fc7dc8c06052a92880cfe8f21e27021b2e679b5adad006129136d1db28d9da2084064373c73a24b1a8454986cfc043c25e55c851317c9b47fa85e925efb775403cb783051c45d2833e25a3177334989738e7817deed47e028a891987f5710091bd2994f28a9edb722245f3027e005f8a2b26b318e25a58db759d11826e7cfa6e108371a77bb42752f774a26ca6517191b4a950dd4fd75c90f73a90b62cd360e0b1ffb304aa9dc207097ea5bea59f54c50b7d46233542896a0be95290bb4e7586aeb9cd03c6ca028739d88913c27d7bba24e670a0e167993b183f5fc4054a3da64f62d247af4cc7048320c08474036f62ab66b2c1353cf27d0222d492264d3a86911016966961413ec9f0cae23d0963a1580a056dbf8d26f98b8b543064cc83f7293a236c9e5a0e3ad913685d609bd41e05ee49c89b994528ea6707d92ff3f89b4258b9fcfd3d21bb5e754bce5c84a98564a3de7e7f3c0e40425e6927f02beacdff54307fbbd7922a988c67b9078b1196a01f526714bba0d9a99142d36dd5807a3de5494c512c77f59661c1e3f9a1b0546f1bfb66ca5beb3d32d20f1f8ccd298f9873ef1050fde7e551ea1e79f6d9c8152ce34816a40e833048bf7a31b13e711208ed7270cd69608af5ad15d44e1c52cec9a51e96c2cfc34935a4a9fbbd72154abfa91110d21c88bcc5ce0654bb6ae629f3c9a2ca2ee4cd1b3398b45070d99cc6ad073da0c60105aea841ad3ee79ec07ba2071712ecf9f0ce58bc204abf3965210921e62d8d5c23542dc09aa0e6c23ec625c58f30045d4055706149606208d4287bc91d416da7695ab9bb16d8020d856c845a16c10e75be148de7da7aabc6bc90655614c38378ed60cbc7bab5fc56ec20e66fffc27d1ca14c0ab619bd112322a08273aba8003b5991e737735363f4b3a76d7fc90a6daa6dff4eb69129b88cbf50dd357f8f9dbbe734dd6bf3e93982004745d681d3c06ea7a2b887d0d3d1bb31f51a56e6bf6d77e7275783f825c6f151e486bfdbc7546963d1de4f8a1e85a1f7baf8e55c7eaf9ac91a91409e37d61f4c232fb5fb319c4e56bf90a6c689292b5523742984865c44054cbb87ac00cc9df63636e632ba068f29458fa6c1ac349a76abeb24fa73f1f316ff21ea861fd299a536b53b00119e26edfa75e3815576ad1f363200df094fea9125405147c58c4e3bde259dba009613689c04195446ee9b60e343a6c4bad6fa50fac0f65aa0f6f9170a15616b606358497429859d3e26679b1f03f7ae186382272c2b07c479646d82e04a8e8023954ba4a8bc6f013087cd3954b89e8d6d5b40cfe1547cf4e7f94635ead10988231ef91ace7be05d9f754192a018bc5747a743533a741b657100fa1d53b8942f7d2b56dcd003be145d96f3f912181bc9dee23e3c32595989d43573b8e842b685c55500187f43b8615bdd59c289dbc382761861fbc22dea51d637ebbb646932a6c580e937bc8c4753c4a597c2a1991d2ce4dcea9dd6cc08f83433dfb9ea081ff50dd3e82a9cc60d79c768394013cc83c5a48742f6f325bb1af9ee68ef2752b5069b233ff2ca35b1cbe677d0392f3808ed8671750d4eec14d50bc12673516ee3fd9ab08501b6ef46fc9afd9095cfd5eb81c95408cfc5ffaa3ff946ceb71f366b32463b8f217f9e1c7fd98815e81dad97414ee0ba50ccec4930c90c81b56ffc5c955c6a3e34f33f627b1def786f18d8ad27a3f4c65a9fb0ad174f24011ed68048a5abfb165e5a4812af4a83b2d41f7103b93e6d5a634a591b3b2bbd132fbbd1e6456f996f145e70316fd19ba97c2649679e36baefe21e2a7ed6f300cd09daa1a6c9dd4a66d4795e74e21dfb70d4553ce3ad694747b4044e50104f89efc5143cd4ba79dfe12cc66ff9de57a062df0a1427e92cdd93a6910c90af1738f041fd83ec244dca9921210cb00da6c984686578d6cfb9459cead98d67202e553ef6003830a159ff6763fd7e257bfb88992f50ffa68659a8612230bd79c63fc1e1ec3c7dac4843ec31bc80f07018aac2492058d1cfb1879aea4ad024aa52a82fecf0f9ad0b163461450f84c40f960bd5be38cc22402d7873323b9ec1fe8cb12fea6bc242a32c9f44753cf67e2b78aebec0621be9aa5a566832dbb64640c9b14e5ee2902031f304152935381236dc7ba0ad700b5776696a54106cda8c2dec0664e2e1713c93dadcea427df9e69561e78786c8f9fa716dfc46cee35400d2f331109e02ac0052e4af003fb07ed426efdff32808429613e7d3b20ff244758ff85993ec9a7ac71ebb9f5376b44f929d9d03e362f2cd2b8b4065448fffa0fb16b07b5ea63f0077d87ed939d9072f7e75bfad9edadedd249688f171d0e68f3393e6c182f726a40dab46b7ceee911135d56ef60fb7e5d84a5411807d6c38087d56eb1fb82ba1f667bbc196e7b5f950bf694030d1c83f71b413788c0314664a9a40175eb6c8951fd81e368bab1792fcf87e9603ff6e32aec9d711b7dbd80632143f788d1786daec4b7e00db54496ce7e5ac2967ddd0d320d6a61d0cd80669fb8743d6f479be145429b78fb6a8e32b89fad4b8da47bc6bf6e48bc9a9869a8d646e11b0b01426709064c70efbff6cbf5b77c5991185c57ef506736738c7d1fc3ba604e5bcd5cf18212574c20fb8e281463d709a52dbd5f75ec9a6c66344eb9c8681678640910dc49ee76181d1219e36794fc91fe541ae562b682ae9457a78da47d245ffc083e071949dbb009b2bc11ad21a57fdecae1fffc9d910a0a3677eb9e6c1cb291e63112d48c6d94ea318418df99e38239ad4204bb1485d28f330bfec46e3753fd0b81bf265ff5e84b5e6136d057a8da27acf9768e591a16b825210c93039597664cd73f81274d0c9262081f0ec914e31b1c03b4f51b01cbae3d76273568c9bd88803b8824e3fdec9a926533d651c3b8f6d74af9219db8fc6f8e08ce2b3738808bf65026a68e61628105aa0ce6347eb9e11b325dca4ae7ac0ec48d28e586894baedba26fd28d841beac6ad173bfcbe1e014d2beec44784d60ea70dc60a0c0f5adf35cb680da6b0dbbce39e462aeaba0e86825b15b148562e11a76d7cb4c502297d11648b1e27da236c0ce5d845f1b56991daa00188ad96732fb04c5879a180122865a66f218e70f1cff81b2ef32ee43ac4bba11e028ceab9808c3d0f031ea911db</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      Welcome to my blog, enter password to read.
+    
+    </summary>
+    
+    
+      <category term="生活篇" scheme="http://bear.tulip.org.au/categories/%E7%94%9F%E6%B4%BB%E7%AF%87/"/>
+    
+    
+      <category term="随笔" scheme="http://bear.tulip.org.au/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
