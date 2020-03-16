@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bear.tulip.org.au/"/>
-  <updated>2020-03-16T03:42:18.709Z</updated>
+  <updated>2020-03-16T04:06:13.357Z</updated>
   <id>http://bear.tulip.org.au/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://bear.tulip.org.au/2020/03/16/%E5%B7%A5%E5%85%B7%E7%AF%87-tikz%E7%BB%98%E5%9B%BE/"/>
     <id>http://bear.tulip.org.au/2020/03/16/%E5%B7%A5%E5%85%B7%E7%AF%87-tikz%E7%BB%98%E5%9B%BE/</id>
     <published>2020-03-16T03:25:28.000Z</published>
-    <updated>2020-03-16T03:42:18.709Z</updated>
+    <updated>2020-03-16T04:06:13.357Z</updated>
     
-    <content type="html"><![CDATA[<p>最近在用latex写论文，又了解到一款实用的绘图包，接下来会边学边用。先开个篇，后续慢慢更新。</p><a id="more"></a><h3 id="1-关于-Tikz">1. 关于 Tikz</h3><p>TikZ是一个非常棒的用于TeX/LaTeX/ConTeXt的图形绘制包，可以直接使用Tex命令进行绘图。（<a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ" target="_blank" rel="noopener">TikZ的Wiki介绍</a>）</p><p>TikZ是基于PGF的，可以帮助我们用更易于理解的方式去创建复杂的图形。PGF （“portable graphics format”）作为basic layer，提供了一组用于生成图形的基本命令，而TikZ (“TikZ ist kein Zeichenprogramm”) 则是具有特殊语法的fronted layer，使PGF的使用更加容易。（<a href="https://particlephd.wordpress.com/2009/01/02/latex-figures-with-pgf-and-tikz/" target="_blank" rel="noopener">A TikZ mini course slide</a>）</p><h4 id="1-1-整理一些资源以供学习：">1.1  整理一些资源以供学习：</h4><ul><li>TikZ快速入门文档： <a href="http://cremeronline.com/LaTeX/minimaltikz.pdf" target="_blank" rel="noopener">http://cremeronline.com/LaTeX/minimaltikz.pdf</a></li><li>官方的示例资源： <a href="http://www.texample.net/tikz/" target="_blank" rel="noopener">http://www.texample.net/tikz/</a></li><li>其他可供学习的资源<ul><li><a href="http://www.texample.net/tikz/resources/" target="_blank" rel="noopener">A growing collection of links to various TikZ and PGF resources.</a></li><li><a href="https://github.com/FriendlyUser/LatexDiagrams" target="_blank" rel="noopener">Latex Diagrams that generated/taken from internet</a></li><li><a href="https://github.com/xiaohanyu/awesome-tikz" target="_blank" rel="noopener">A project contains a curated list of awesome TikZ documentations, libraries and resources</a></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>最近在用latex写论文，又了解到一款实用的绘图包，接下来会边学边用。先开个篇，后续慢慢更新。</p><a id="more"></a><h3 id="1-关于-Tikz">1. 关于 Tikz</h3><p>TikZ是一款用于TeX/LaTeX/ConTeXt的图形绘制包，可以直接使用Tex命令进行绘图。（<a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ" target="_blank" rel="noopener">TikZ的Wiki介绍</a>）</p><p>TikZ是基于PGF的，可以帮助我们用更易于理解的方式去创建复杂的图形。PGF  (“portable graphics format”) 作为basic layer，提供了一组用于生成图形的基本命令，而TikZ  (“TikZ ist kein Zeichenprogramm”)  则是具有特殊语法的fronted layer，使PGF的使用更加容易。（<a href="https://particlephd.wordpress.com/2009/01/02/latex-figures-with-pgf-and-tikz/" target="_blank" rel="noopener">A TikZ mini course slide</a>）</p><h4 id="1-1-整理一些资源以供学习：">1.1  整理一些资源以供学习：</h4><ul><li>TikZ快速入门文档： <a href="http://cremeronline.com/LaTeX/minimaltikz.pdf" target="_blank" rel="noopener">http://cremeronline.com/LaTeX/minimaltikz.pdf</a></li><li>官方的示例资源： <a href="http://www.texample.net/tikz/" target="_blank" rel="noopener">http://www.texample.net/tikz/</a></li><li>其他可供学习的资源<ul><li><a href="http://www.texample.net/tikz/resources/" target="_blank" rel="noopener">A growing collection of links to various TikZ and PGF resources.</a></li><li><a href="https://github.com/FriendlyUser/LatexDiagrams" target="_blank" rel="noopener">Latex Diagrams that generated/taken from internet</a></li><li><a href="https://github.com/xiaohanyu/awesome-tikz" target="_blank" rel="noopener">A project contains a curated list of awesome TikZ documentations, libraries and resources</a></li></ul></li></ul><p>另：初学TikZ需要多多练习</p>]]></content>
     
     <summary type="html">
     
