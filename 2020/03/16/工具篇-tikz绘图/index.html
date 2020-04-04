@@ -32,11 +32,14 @@ color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas
 <meta property="og:site_name" content="No meat, no life">
 <meta property="og:description" content="最近在用latex写论文，又了解到一款实用的绘图包，接下来会边学边用。先开个篇，后续慢慢更新。">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://bear.tulip.org.au/images/plot1.png">
+<meta property="og:image" content="http://bear.tulip.org.au/images/plot2.png">
 <meta property="article:published_time" content="2020-03-16T03:25:28.000Z">
-<meta property="article:modified_time" content="2020-03-16T04:06:13.357Z">
+<meta property="article:modified_time" content="2020-04-04T12:34:31.344Z">
 <meta property="article:author" content="Kinry Xiong">
 <meta property="article:tag" content="Tools">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://bear.tulip.org.au/images/plot1.png">
 
 <link rel="canonical" href="http://bear.tulip.org.au/2020/03/16/%E5%B7%A5%E5%85%B7%E7%AF%87-tikz%E7%BB%98%E5%9B%BE/">
 
@@ -193,10 +196,16 @@ color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-03-16 14:25:28 / 修改时间：15:06:13" itemprop="dateCreated datePublished" datetime="2020-03-16T14:25:28+11:00">2020-03-16</time>
+              <time title="创建时间：2020-03-16 14:25:28" itemprop="dateCreated datePublished" datetime="2020-03-16T14:25:28+11:00">2020-03-16</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-04-04 23:34:31" itemprop="dateModified" datetime="2020-04-04T23:34:31+11:00">2020-04-04</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -220,10 +229,10 @@ color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas
       
         <p>最近在用latex写论文，又了解到一款实用的绘图包，接下来会边学边用。先开个篇，后续慢慢更新。</p>
 <a id="more"></a>
-<h3 id="1-关于-Tikz">1. 关于 Tikz</h3>
+<h3 id="关于-Tikz">关于 Tikz</h3>
 <p>TikZ是一款用于TeX/LaTeX/ConTeXt的图形绘制包，可以直接使用Tex命令进行绘图。（<a href="https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ" target="_blank" rel="noopener">TikZ的Wiki介绍</a>）</p>
 <p>TikZ是基于PGF的，可以帮助我们用更易于理解的方式去创建复杂的图形。PGF  (“portable graphics format”) 作为basic layer，提供了一组用于生成图形的基本命令，而TikZ  (“TikZ ist kein Zeichenprogramm”)  则是具有特殊语法的fronted layer，使PGF的使用更加容易。（<a href="https://particlephd.wordpress.com/2009/01/02/latex-figures-with-pgf-and-tikz/" target="_blank" rel="noopener">A TikZ mini course slide</a>）</p>
-<h4 id="1-1-整理一些资源以供学习：">1.1  整理一些资源以供学习：</h4>
+<h4 id="整理一些资源以供学习：">整理一些资源以供学习：</h4>
 <ul>
 <li>TikZ快速入门文档： <a href="http://cremeronline.com/LaTeX/minimaltikz.pdf" target="_blank" rel="noopener">http://cremeronline.com/LaTeX/minimaltikz.pdf</a></li>
 <li>官方的示例资源： <a href="http://www.texample.net/tikz/" target="_blank" rel="noopener">http://www.texample.net/tikz/</a></li>
@@ -236,6 +245,22 @@ color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas
 </li>
 </ul>
 <p>另：初学TikZ需要多多练习</p>
+<p>当我要完成一个图形的时候，临时去看一些手册和资料，发现很难看懂里面很多语句是什么功能。于是折腾了很久，完成目标之后做总结，发现可能还是从最简单的例子开始练习，熟悉基本的语句逻辑之后会更容易学习。</p>
+<p>总之，练习最重要。</p>
+<p>适合入门的小例子练习：<a href="https://www.latexstudio.net/archives/51453.html" target="_blank" rel="noopener">https://www.latexstudio.net/archives/51453.html</a></p>
+<h3 id="示例收集">示例收集</h3>
+<ul>
+<li>绘制垂线</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">%</span><br><span class="line">\usepackage&#123;pgfplots&#125;</span><br><span class="line">\usepackage&#123;tikz&#125;</span><br><span class="line">\pgfplotsset&#123;width&#x3D;16cm,height&#x3D;8cm&#125;</span><br><span class="line">%</span><br><span class="line">\usetikzlibrary&#123;positioning, arrows.meta&#125;</span><br><span class="line">\definecolor&#123;darkblue&#125;&#123;RGB&#125;&#123;1,31,188&#125;</span><br><span class="line">\usepgfplotslibrary&#123;fillbetween&#125;</span><br><span class="line">%</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;tikzpicture&#125;</span><br><span class="line">    \begin&#123;axis&#125;[</span><br><span class="line">        xtick&#x3D;&#123;-14,-12,-10,-8,-6,-4,-2,0,2,4,6,8,10,12,14&#125;,</span><br><span class="line">        ytick&#x3D;&#123;0,0.1,0.2&#125;,</span><br><span class="line">        ymin&#x3D;-0.03, ymax&#x3D;0.3]</span><br><span class="line">        </span><br><span class="line">     \addplot[only marks,color&#x3D;darkblue,mark size&#x3D;2.5pt] table &#123;data.txt&#125;;</span><br><span class="line">     \addplot[draw&#x3D;none,name path&#x3D;curve] table &#123;data.txt&#125;;</span><br><span class="line">     </span><br><span class="line">     \pgfplotsinvokeforeach&#123;-12,...,12&#125;&#123;</span><br><span class="line">     	\addplot[draw&#x3D;none,name path&#x3D;&#123;line#1&#125;] coordinates  &#123; (#1,0) (#1,0.5) &#125;;</span><br><span class="line">     	\path[name intersections&#x3D;&#123;of&#x3D;curve and line#1,by&#x3D;&#123;point#1&#125;&#125;];</span><br><span class="line">     	\draw[black] (axis cs:#1,0) -- (point#1);</span><br><span class="line">     &#125;</span><br><span class="line"></span><br><span class="line">    \end&#123;axis&#125;</span><br><span class="line">\end&#123;tikzpicture&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/images/plot1.png" alt="image">
+<br></p>
+<ul>
+<li>绘制laplace分布曲线图</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">%</span><br><span class="line"></span><br><span class="line">\usepackage&#123;pgfplots&#125;</span><br><span class="line">\usepackage&#123;tikz&#125;</span><br><span class="line">\pgfplotsset&#123;width&#x3D;16cm,height&#x3D;8cm&#125;</span><br><span class="line">%</span><br><span class="line">\usetikzlibrary&#123;positioning, arrows.meta&#125;</span><br><span class="line">\definecolor&#123;darkblue&#125;&#123;RGB&#125;&#123;1,31,188&#125;</span><br><span class="line">%</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;tikzpicture&#125;</span><br><span class="line">    \begin&#123;axis&#125;[</span><br><span class="line">        xtick&#x3D;&#123;-10,-8,-6,-4,-2,0,2,4,6,8,10&#125;,</span><br><span class="line">        ytick&#x3D;&#123;0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0&#125;,</span><br><span class="line">        ymin&#x3D;-0.03, ymax&#x3D;0.6]</span><br><span class="line">    \addplot[color&#x3D;darkblue] table &#123;laplace.txt&#125;;</span><br><span class="line"></span><br><span class="line">    \end&#123;axis&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;tikzpicture&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/images/plot2.png" alt="image">
+<br></p>
 
     </div>
 
@@ -339,7 +364,7 @@ color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-关于-Tikz"><span class="nav-number">1.</span> <span class="nav-text">1. 关于 Tikz</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1-整理一些资源以供学习："><span class="nav-number">1.1.</span> <span class="nav-text">1.1  整理一些资源以供学习：</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#关于-Tikz"><span class="nav-number">1.</span> <span class="nav-text">关于 Tikz</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#整理一些资源以供学习："><span class="nav-number">1.1.</span> <span class="nav-text">整理一些资源以供学习：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#示例收集"><span class="nav-number">2.</span> <span class="nav-text">示例收集</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -355,7 +380,7 @@ color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
